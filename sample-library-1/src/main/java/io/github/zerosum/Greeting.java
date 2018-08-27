@@ -11,6 +11,6 @@ public class Greeting {
     private String to;
 
     public void greet() {
-        System.out.println("Hi! " + to + ". " + "I'm " + from + ". " + message);
+        System.out.println("Hello, " + to + ". " + "I'm " + from + ". " + message);
     }
 }
