@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.github.zerosum</groupId>
-  <artifactId>sample-library-2</artifactId>
+  <groupId>io.github.zerosum</groupId>
+  <artifactId>sample-library-1</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20180827.130309</timestamp>
+      <timestamp>20180827.132421</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20180827130309</lastUpdated>
+    <lastUpdated>20180827132421</lastUpdated>
   </versioning>
 </metadata>
