@@ -1,9 +1,18 @@
 plugins {
     id 'java-library'
+    id 'maven'
 }
 
-group 'com.github.zerosum'
-version '1.0.0-SNAPSHOT'
+def repo = new File(rootDir, "docs")
+
+uploadArchives {
+    repositories.mavenDeployer {
+        repository url: "file://${repo.absolutePath}"
+        pom.version = '1.0.0-SNAPSHOT'
+        pom.groupId = 'com.github.zerosum'
+        pom.artifactId = 'sample-library-2'
+    }
+}
 
 sourceCompatibility = 1.8
 
