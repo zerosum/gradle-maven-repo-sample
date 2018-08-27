@@ -12,6 +12,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.zerosum:sample-library-1:1.0.0-SNAPSHOT'
-    compile 'com.github.zerosum:sample-library-2:1.0.0-SNAPSHOT'
+    compile 'io.github.zerosum:sample-library-1:1.0.0-SNAPSHOT'
+    compile 'io.github.zerosum:sample-library-2:1.0.0-SNAPSHOT'
 }

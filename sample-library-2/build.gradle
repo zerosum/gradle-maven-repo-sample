@@ -9,7 +9,7 @@ uploadArchives {
     repositories.mavenDeployer {
         repository url: "file://${repo.absolutePath}"
         pom.version = '1.0.0-SNAPSHOT'
-        pom.groupId = 'com.github.zerosum'
+        pom.groupId = 'io.github.zerosum'
         pom.artifactId = 'sample-library-2'
     }
 }

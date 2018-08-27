@@ -1,4 +1,4 @@
-package com.github.zerosum;
+package io.github.zerosum;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

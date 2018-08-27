@@ -1,5 +1,5 @@
-import com.github.zerosum.Greeting;
-import com.github.zerosum.Person;
+import io.github.zerosum.Greeting;
+import io.github.zerosum.Person;
 
 public class Main {
     public static void main(String args[]) {
