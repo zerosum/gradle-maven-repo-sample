@@ -1,0 +1,16 @@
+plugins {
+    id 'application'
+}
+
+mainClassName = 'Main'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile project(':sample-library-1')
+    compile project(':sample-library-2')
+}

@@ -1,1 +1,5 @@
 rootProject.name = 'gradle-maven-repo-sample'
+include 'sample-library-1'
+include 'sample-client'
+include 'sample-library-2'
+
