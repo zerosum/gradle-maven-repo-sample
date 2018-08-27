@@ -7,10 +7,11 @@ mainClassName = 'Main'
 sourceCompatibility = 1.8
 
 repositories {
+    maven { url 'http://zerosum.github.com/gradle-maven-repo-sample' }
     jcenter()
 }
 
 dependencies {
-    compile project(':sample-library-1')
-    compile project(':sample-library-2')
+    compile 'com.github.zerosum:sample-library-1:1.0.0-SNAPSHOT'
+    compile 'com.github.zerosum:sample-library-2:1.0.0-SNAPSHOT'
 }
